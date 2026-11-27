@@ -1,6 +1,6 @@
 # 质心模拟题
 
-102套物理竞赛模拟题项目。每套提供试卷、学生详解、教师备课三版，并保存 Markdown、LaTeX、TikZ 图稿、计算脚本和复核记录。
+这里整理了 102 套物理竞赛模拟题。每套有试卷、学生解答和教师备课三个版本。仓库还保存了 Markdown、LaTeX、TikZ 图稿、计算脚本和复核记录。
 
 ## 目录
 
@@ -10,13 +10,13 @@
 - `deliveries/takeover/`：“质心模拟题3（接管）”的交付目录，覆盖第038—047套。
 - `index/snapshot-manifest.json`：全部文件的路径、大小、SHA-256及恢复映射。
 
-最早“质心模拟题”的独立工作目录为空；它的题库工程已在主项目中。
+最早一批“质心模拟题”的题库工程可在主项目中查看。
 
 ## 阅读成品
 
 完整PDF成品和配图请从[完整备份附件](https://github.com/sabercldong/zhixin-mock-exams/releases/tag/backup-2026-10-12)下载并恢复。恢复后的第001—037套最近整理的读者版位于 `deliveries/zhixin-2/质心模拟题_正式版`。其余套题可从对应交付目录或 `project/蔡题NNN/整理版/output` 查阅，部分套题的PDF在 `output/pdf` 中。
 
-题目整理及逐套复核已覆盖102套。最近一次清理来源评价、修订标注的工作覆盖第001—037套；第038—102套尚未按这一新增要求统一检查。
+102 套都已整理并逐套复核。最近一次调整了第 001—037 套的来源说明和修订标注。第 038—102 套沿用已有说明。
 
 ## 完整备份与恢复
 
@@ -42,4 +42,4 @@ gh release download backup-2026-10-12 --repo sabercldong/zhixin-mock-exams --dir
 python3 backup/restore_backup.py --destination ../质心模拟题_完整恢复
 ```
 
-此仓库为私有仓库。快照日期：2026年10月12日。
+备份快照日期为 2026 年 10 月 12 日。
